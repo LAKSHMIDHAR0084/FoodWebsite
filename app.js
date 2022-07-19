@@ -39,19 +39,6 @@ app.get('/',(req,res)=>{
     res.status(200).render('home.pug')//you can also send title also optional
 })                         //home.pug is in views folder
 
-/*app.post('/',(req,res)=>{
-    console.log(req.body)//to get entered info in console
-    //let name=req.body.name;
-    //let age=req.body.age;
-    //let height=req.body.height;   //required parameters body . " this is same as name in form"
-    //let weight=req.body.weight;
-    //let goal=req.body.goal;
-
-   // let output=`details of ${name} :- ${age}  ${height}  ${weight}  ${goal},   \n`
-     //fs.appendFileSync('object.txt', output),
-
-    res.status(200).render('home.pug')//index.pug is also same as home.pug 
-})*/
 
 app.get('/contact',(req,res)=>{
     param={    };
@@ -90,5 +77,3 @@ app.listen(port, ()=>{
     console.log(`the spplication started succesfully on port ${port}`);
 })
 
-
-///TILL HERE IT IS SAME FOR ALL
