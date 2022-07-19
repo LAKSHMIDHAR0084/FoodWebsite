@@ -1,0 +1,124 @@
+/*nav bar*/
+
+#navbar {
+
+    flex-direction: column;
+}
+#navbar ul li a {
+    
+    font-size: 1rem;
+    
+    
+}
+
+#navbar ul {
+    
+    padding-left: 9px;
+}
+#navbar ul li{
+    
+    padding: 0.6rem;
+}
+
+
+#home h1 {
+    font-size: 2rem;
+    width: 23rem;
+    margin: auto;
+}
+
+
+/*home*/
+
+
+#home
+{
+    
+    width: 100vw;
+
+
+}
+#home input {
+    
+    margin: 1rem;
+    width: 14rem;
+    
+}
+
+#home::after
+{
+    color: black;
+    margin-top: 10rem;
+}
+
+#home button {
+    width: 5rem;
+    
+}
+/*services*/
+
+.box
+{
+    margin-top: 0rem;
+}
+
+/*contact us*/
+
+.contactbox {
+    display: block;
+    width: auto;
+    margin: 0rem;
+    border: 4px solid black;
+
+}
+.contactbox form input{
+    
+    width: auto;
+    
+}
+
+.contactbox form {
+    color: azure;
+    display:flex;
+    flex-direction: column;
+    width: auto;
+    margin: auto;
+}
+
+.contactbox form label{
+    
+    margin: 10px;
+    display: block;
+    width: auto;
+}
+.contactform textarea
+{ 
+    
+    width: 20rem;
+    height: 5rem;
+    margin: auto;
+}
+
+#contact::before{
+   
+    background-image: none;
+   
+}
+
+#contact{
+    height: auto;
+   border: none;
+}
+
+
+.contactform textarea
+{
+    width: auto;
+    height: 5rem;
+}
+
+.contactbox form
+{
+    width: auto;
+    align-items: center;
+}
